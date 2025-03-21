@@ -11,7 +11,9 @@ Maven
 
 # Get Started
 To start/run the application, download the dependencies since the project is a spring boot application, you open terminal/command line to run the below commands
+
 mvn clean install, then 
 mvn spring-boot:run
 The application will start on port 8085
-then on postman you can hit "http://localhost:8085/bank/withdraw?accountId=23&amount=100.00"
+then on postman you can hit 
+"http://localhost:8085/bank/withdraw?accountId=23&amount=100.00"
